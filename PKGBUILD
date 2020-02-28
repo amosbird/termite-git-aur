@@ -1,5 +1,5 @@
 pkgname=(termite-git termite-terminfo-git)
-pkgver=13.r25.gf7aa2d5
+pkgver=99999.13.r25.gf7aa2d5
 pkgrel=1
 
 pkgdesc="A simple VTE-based terminal"
@@ -16,7 +16,7 @@ md5sums=(SKIP SKIP)
 
 pkgver() {
   cd termite
-  git describe --long --always | sed 's/^v//; s/-/.r/; s/-/./'
+  echo 99999.$(git describe --long --always | sed 's/^v//; s/-/.r/; s/-/./')
 }
 
 prepare() {

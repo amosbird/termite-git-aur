@@ -1,6 +1,6 @@
 pkgbase = termite-git
 	pkgdesc = A simple VTE-based terminal
-	pkgver = 13.r25.gf7aa2d5
+	pkgver = 99999.13.r25.gf7aa2d5
 	pkgrel = 1
 	url = https://github.com/amosbird/termite/
 	arch = i686
